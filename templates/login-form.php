@@ -1,9 +1,9 @@
-<form action="login.php" method="post">
+<form action="login.php" method="post" class="form-container">
     <label for="username">Username:</label>
-    <input type="text" name="username" id="username" required>
-    <br>
+    <input type="text" name="username" id="username" required placeholder="Enter username">
+
     <label for="password">Password:</label>
-    <input type="password" name="password" id="password" required>
-    <br>
-    <button type="submit">Login</button>
+    <input type="password" name="password" id="password" required placeholder="Enter password">
+
+    <button type="submit" class="btn-primary">Login</button>
 </form>
